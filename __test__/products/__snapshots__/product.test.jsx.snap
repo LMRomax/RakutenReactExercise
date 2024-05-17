@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders product unchanged 1`] = `
+<div>
+  <a
+    class="rounded-lg p-[16px] flex flex-row gap-[16px] items-center justify-center border border-slate-300 w-full"
+    data-testid="product"
+    href="/url/to/test/apple"
+  >
+    <div
+      class="flex items-center justify-center w-[120px] h-[120px]"
+    >
+      <img
+        alt="Image od product name"
+        data-nimg="1"
+        decoding="async"
+        height="0"
+        loading="lazy"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffr.shopping.rakuten.com%2Fphoto%2F4075345048_ML_NOPAD.jpg&w=3840&q=75 3840w"
+        style="color: transparent; width: 100%; height: auto;"
+        width="0"
+      />
+    </div>
+    <div>
+      <div
+        class="text-[#696969] text-[12px] font-semibold"
+      >
+        Apple
+      </div>
+      <div
+        class="text-[#333] text-[14px] mb-[8px] font-semibold"
+      >
+        Test Apple title
+      </div>
+      <div
+        class="text-[#BF0000] text-[14px] font-bold"
+      >
+        <span
+          class="text-[20px]"
+        >
+          NaN €
+        </span>
+         Neuf
+      </div>
+      <div
+        class="text-[#333] text-[14px]"
+      >
+        Occasion dés 
+        <span
+          class="text-[20px] font-bold"
+        >
+          NaN €
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;
