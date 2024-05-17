@@ -12,7 +12,7 @@ interface Props {
   readonly children: ReactNode;
 }
 
-export const metadat: Metadata = {
+export const metadata: Metadata = {
   title: {
     template: '%s | Test Rakuten',
     default: 'Test Rakuten'
