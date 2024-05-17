@@ -26,7 +26,7 @@ export default async function Page({
 
   return (
     <>
-      <h3 className="text-black text-3xl font-bold mt-3 leading-relaxed text-center mb-12 md:text-left md:mt-0 md:mb-12">
+      <h3 className="text-black text-3xl font-bold mt-3 leading-relaxed text-center mb-8 md:text-left md:mt-0 md:mb-8">
         Products
       </h3>
 

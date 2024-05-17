@@ -24,16 +24,16 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+        <div className="flex h-screen flex-col md:flex-row">
           <div className="w-full flex-none md:w-72">
             <SideNav />
           </div>
-          <div className="flex-grow">
+          <div className="fixed flex-grow">
             <TopNav />
+          </div>
 
-            <div className="flex-grow p-6 md:overflow-y-auto md:p-12">
-              {children}
-            </div>
+          <div className="flex-grow p-6 md:overflow-y-auto md:p-12 md:mt-8">
+            {children}
           </div>
         </div>
       </body>
